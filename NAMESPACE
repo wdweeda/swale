@@ -1,0 +1,71 @@
+export(
+	makePoly,
+	fdDeriv,
+	anDerivPoly,
+	cleanTrials,
+	setMaxLat,
+	peakPick,
+	peakModel,
+	summarizeModel,
+	zerocross,
+	iterate,
+	iterateDiscard,
+	iterateSplit,
+	autoSplit,
+	multiSplit,
+	testSplits,
+	makeStart,
+	calcSolution,
+	swaleEEG,
+	plotSingleTrials,
+	plotSolution,
+	plotTraces,
+	plotTraceAverage,
+	prettyTime,
+	eeg.plot,
+	eeg.plot.raster,
+	lowpass,
+	plot.freq,
+	detrend,
+	demean,
+	s2t,
+	estimateSNR,
+	interval2Hz,
+	hz2interval,
+	simulateEEGsignal,
+	makeNoise,
+	calculateSNR,
+	snrHeaven,
+	plotAmpLat,
+	plotDatEst,
+	plotPeakMethods,
+	summarizeModel,
+	estimate.f,
+	average.f,
+	split.f.window,
+	split.f.one,
+	split.f.fix,
+	estimate.ab,
+	model,
+	rss,
+	Rsq,
+	aic,
+	swalecor,
+	bic
+)
+
+exportPattern("^[\\.]")
+
+exportClasses(
+	version,
+	basis,
+	eeg.data,
+	swale.internal,
+	swale.solution,
+	control
+)
+
+exportMethods(
+	plot,
+	show
+)
