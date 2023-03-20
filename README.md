@@ -1,8 +1,4 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
+
 # SWALE
 Simultaneous Waveform and Amplitude Estimation (SWALE)
 
